@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Start Template">
+	<meta name="author" content="Admin">
+	<title>Our Team</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<script></script>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!--SVG-->
+	<svg width="0" height="0" class="hidden">
+		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" id="fb">
+			<image width="30" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACsklEQVRIib2XzUtUURjGfzOVWRv7dOEyqNxU4BAiaEVk1tbC3Lfo28xNQQs3LmrTh31K/4BJuAwysbAgojFINxOCf4AW5aakiIkXnlduw8ydc4dpHrjcc+495/ndc8/Xe1LZbJYArQO6gE5gP7AD2KR334EF4APwEngB/C5nWA5s5v3AeWB7yBcCX4AHwB19VFGlYwx6gRwwKOic0oeBJmC9riY9G1SZbUrn5BHc4jXAPeCc8m+A67qHqAMYAg4o/wi4BPyJa7FBxwRdAc4CBxNA/UMPqe6KvMbkXRJs/dKtvrHfNwLkE0BdedU1j2/yvFsKfAq4CPwEjgHvKgAWyjyOAz+AC2L8A7bRO6z0APC+ClCXeV1RetinoYNtyjSqf0YCDTOat3ldV2PKPgGmxeh3cJ3mKRq9oX1qA+ZIYNm8vBGrbi1wVPN0NsHozWj1Ml0DZrR6xekt8AnYZ8y0wKbxQKhpcyRt0MkAcJTRZS1uUWY6EJjR5fL0QgDcGS0G3qVMLgDsAyqqG7rbL79Zpv5n3Xfar25Q5msAOE4zAWWc0RC3SRST9WVK26OrU88mkxgZeFnprQk/ohI5Y9nA88o01wC8W/f5dKRvOmoA9q3yo4EnlDlRA3C37hMOttG2F2j/j9B2rVpLFpcZ+BdwXy+HNELLyUd36GhOydv00Jg+nSwAWFS0cabCFsXptLyXxFrdFi3i6FP6FtBaRWhrJPro88gzuoA8VVi6AXgOtFUB2iavjfIe9ReFK9dl7SBbgCn99pA+L1RKdafkNS7vVRWCLQTtUUhaDzwGXiec41b2lerWy6unMLyNO0n0qm8albdg/ZmChZxODCiAbxbwJLBHzxfVytFi5iFHGAvULEIMXcttTbD+vB13hEl6aLNoxQ9tHoVY3OyHNluM7LK1obSAvy12ngcZFJq5AAAAAElFTkSuQmCC"></image>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" id="google">
+			<image width="30" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAADHklEQVRIia2Xy0uUURjGf2Nm1sbs4sLlQOWmAi1EyG6Y1tZqch90z6xNQgs3LWzTxa7WP2Az4TLIxMKCiJyg2kxI/gFaTW5KCjFeeI6cPr7vm2/MB4ZzmXOe55zznvf93pOamJggAVYCHcABYCeQBtbqvx/AFPAOeA48A/6UIiwlbOQ9wBlgY5IVAl+Bu8BNLSoUFTEEXUAB6JPoJ9X3A/XAKv3q1denMRtUL4gj8Y5XALeB02q/Aq6oTIJW4CqwW+37wHlgPm7HJpqV6BxwCthThqhb6F7NnRNXVtyRwmaXTtnGjm8QWChD1GFBc42jKM5bUcLHgHPAL+Ag8GYJgkEYxyHgJ3BWGv8I2+0dUP0S8HYZRB2M66LqA84NnbC5TJ3sMxhBUAtcBvqB7zpO89ujCcQfAePS6HHCVfJTdHujbGoieaAX2KG+USCXQHhB3EiryoTb5acfY27vCaBJQihS5XQCSfEa+CCtdidsGI6ZVKsy7fXlQ8akiYfT6DDhRjXGYya44+z3+kzkmtduSmBvp9FYCWxWoxAzwY42o6PNyjeRcFqCaW/HOc0J4rPKTSZco8a3EqvN6demi5ZRfzFw7HlvYUE4jZrKEmJRKMrtzK4PvUtHoB4Js/Gs6utjxjVpl87GGR3loHe8owGbh8FpzJrwpBoNMROyIu5VOSpfzicMIA5bVE5WePZpjRjcpl0F3QfZPMqeYXCfyvcmPKLG4YjB7rL0e/6M57dJIpdDp8qRSgnbbdsG7FKE8VFUrmWu9EULmVJ/bxk7Nu7twIzlZSb8G7ijdMUyh30h8Trvuc9SkBK34Z5puq+TJQDTyjZO/odAFI6Le0Zai59Fyzi6Vb8ONC+jaLOXfXS7zNPPQB4rLV0NPAValkG0RVxrxD3k/gjmXBf0BVkHjOnYU0sQTGnumLiGxb2IoPC8LpGlpNXAA+BljI+Hwca+0NxqcWWC6W3cS6JLtqlT25L1J0oWCnoxoAS+QYJHgK3qn9Yuh8LIkzxhLFGzDDEulvuwmGD2vBH3hCn30WbZinu0uShmAcQ92iwY2c9iQzSAv8uOw4F59/jhAAAAAElFTkSuQmCC"></image>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" id="in">
+			<image width="30" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACvklEQVRIib2Xy0tVQRzHP9fMHht7unAZVG4qsEKEbi9Ma2sv94G9zdy4aGFBmzY9jPDRP2AWLoO8YmVBRPcG1eaG1B+gRblJKeLGD74jx8O9c849XfzBMDPnnPl+Zs5vHr9JZbNZYthKoA04AuwFtgDr9O4n8BV4B2SAZ8CfKMEosIl3AxeAzXF6CHwDHgB31amiVuUR6ADyQJ+gn1Q+DNQDq5Tq9axP32xSOS+N2CNeAdwHzqv+CrimPI6lgZvAftUHgMvAX9+IDToq6AJwDjhQBtR19KDaLkhrVNolweaXdvnGft8QUCgD6qygtqbxQ5r3SoFPA5eAeeAo8CYBMGymcQz4BVwUYwnYZm+/yj3A2wpAnZnWVZX73TJ0YFsydfLPUAWhzh4CU2J0O3CN1imavcV82qnNoTMhuCBtxKoxcKvW6UfP7DVgC9CbEGz2GvggVqsDm415Gg0DE8Ct/wAHGW3VQKMqUxHgYc/7FuU5LZ9S5hiNNuJtquQ9DTLyUyZUzypllL4Auz06n5VvNXCtKt89DUqZQdZrpKjsmweOUes7JOKY/dY9So/17GSchgaeU3ljAnDQp7mIb4OMOQNPq9KQAFyubVc+XRXoaXoZwO6ofG/gcVWOLwO4Xfl4tcA223YC+7TDhC0XkSNfT3igpr0LmLW4zEUg1xWuvAQOJTyDfZYCniuouGE8t5wsAJjRi7MVhpqdkfasWIvHokUcXSrfBpoqCG0KRB9dLvIMbiCPFJauAZ4CzRWANktrrbRH3IvwznVFJ8gGYFK/PZUAmFLbSWmNSXvRwmALQU8pJF0NDAIvylzjaU2kQWkMSHNJeOu7SXTIN3WqW7D+RMFCXjcGFMA3CHgC2KHnMxrlSDHxOFcYC9QsQoy7l9ueYP6847vClHtps2jFXdrsCDSzjcNd2mwzsvTbqwb8A/9WquHoeqc/AAAAAElFTkSuQmCC"></image>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" id="twitter">
+			<image width="30" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAC30lEQVRIibWXy0tUURzHP2Nk1samhwtpNVG5aWOECE1FmNa2h7kPemfapqCFmxa16WFP7R8wC5dBGhYWRDQG1WZCmmULLSY3JYVM/OB7huly59w7w8wPLvece8/5fs7zd34nkclkiGErgR5gP7ATSAFr9e8nkAPeA1PAc+BvlGAU2MQHgDPAxjgtBL4D94BbalSoNXgE+oAsMCToZ6X3Aa3AKj2t+jakMhuUzkojdo9XAHeA08q/Bq7oHcfSwFVgt/IPgPPAsq/HBh0XdAk4BeypAOoauld1l6Q1Lu2yYJuXQ5obG74RoFAB1FlBdU0jL83b5cDHgHPAb+AA8LYKYNBM4yDwCzgrxn9gW73DSl8E3tUA6sy0BpUedtvQgW3LtGh+RmoIdfYImBFjwIEbtU/R6q1mTqOsIG3EajRwt/bpJ8/qNU+VDPm+Q96qoHcXcKmMxhvgo1jdDmw24WnxUQmnAt+vCYbeU2pgWCNLGT0GbldmxgPOq3cZwVwDukLKjqp8mDlGu4G3KpP1gGf1JDWUXz1rIefR+aL3FgM3K/PDUyGpHkfZi4j/jtHsOySCgtc9QxgXXDQDLyq9PqJszrNoUKNGIzQcY9HAc8q0RVQy0cua6zDrjTEi2/SeaygRSnsqpEpWcHBL5QWNM8zuqPxg4EllDkdUsr18omS4ZzUCm4EnMaDolDKbtEDAXOY3jX9aHqYetkuecQHYZD3+A9zVT4scEnWAJqRtdt+YbjtZADCvaONkHcDHpb0gVvFYtIijX+kbQEcNoR0l0Ue/izxLHchjhaWrgWdAZw2gndJaI+0x9yPouS7oBFkHTGvYq5nzhOpOS2tC2kULgpe1Jy0kbQIeAq8i9njQrOxL1W2SVm8wvPXdJPo0Ny3KW7D+VFsiqxsDCuDbBDwCbNf3efVyLEw8zhXGAjWLEKN8uTM7gWw+b/quMJVe2ixacZc258HMZbpLm3lBe8w3lDfgHyyzrLE2wza4AAAAAElFTkSuQmCC"></image>
+		</symbol>
+	</svg>
+	<!--SVG-END-->
+
+	<div class="header">
+		<div class="wrapper">
+			<div class="title">
+				<p class="title__desc">The geniuses behind our work</p>
+				<h1 class="title__name">Our team</h1>
+			</div>
+			<div class="fire-line"><i class="fas fa-fire"></i></div>
+			<div class="main">
+				<div class="main__triangle main__triangle--left">
+					<a class="arrow"><i class="fas fa-chevron-left"></i></a>
+				</div>
+				<div class="main__photo">
+					<div class="topleft border"></div>
+					<div class="topright border"></div>
+					<div class="bottomleft border"></div>
+					<div class="bottomright border"></div>
+					<div class="center"><img src="images/photo.jpg" class="photo"></div>
+				</div>
+				<div class="main__line">
+					<div class="main__verticalline"></div>
+				</div>
+				<div class="main__text project">
+					<div class="project__name">
+						Sahariar Kabir
+					</div>
+					<div class="project__specialize">
+						Frontend Developer
+					</div>
+					<div class="project__socialize">
+						<svg class="project__icon">
+							<a href="#"><use xlink:href="#fb"></use></a>
+						</svg>
+						<svg class="project__icon">
+							<a href="#"><use xlink:href="#twitter"></use></a>
+						</svg>
+						<svg class="project__icon">
+							<a href="#"><use xlink:href="#fb"></use></a>
+						</svg>
+						<svg class="project__icon">
+							<a href="#"><use xlink:href="#in"></use></a>
+						</svg>
+
+					</div>
+					<div class="project__desc">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.</p>
+					</div>
+					<div class="profile">
+						<button class="project__profile" value="Viev Profile">Viev Profile</button>
+
+					</div>
+				</div>
+				<div class="main__triangle main__triangle--right">
+					<a class="arrow"><i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+			<div class="slider-button"></div>
+		</div>
+	</div>
+
+
+	<!-- LiveReload Script -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>
